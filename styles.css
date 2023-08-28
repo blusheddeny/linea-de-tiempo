@@ -1,0 +1,32 @@
+body {
+            font-family: Arial, sans-serif;
+        }
+
+        .timeline {
+            list-style: none;
+            padding: 0;
+        }
+
+        .timeline-item {
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        .timeline-item::before {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 5px;
+            left: -10px;
+            width: 10px;
+            height: 10px;
+            background-color: #0074D9;
+            border-radius: 50%;
+        }
+
+        .timeline-item-content {
+            margin-left: 20px;
+            background-color: #F0F0F0;
+            padding: 10px;
+            border-radius: 5px;
+        }
