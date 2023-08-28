@@ -1,6 +1,9 @@
 body {
             font-family: Arial, sans-serif;
         }
+.center{
+            text-align:center;
+}
 
         .timeline {
             list-style: none;
